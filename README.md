@@ -6,4 +6,4 @@ Website written and assembled by:
 - Riley Hutton
 - Matthew Peters
 - Satapas Tanachotpaisit
-- Wai yan moe hein
+- Wai Yan Moe Hein
