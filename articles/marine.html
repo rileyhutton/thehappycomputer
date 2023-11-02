@@ -28,6 +28,7 @@
       crossorigin="anonymous"
     />
     <title>Computing in Marine Biology</title>
+    <link rel="icon" type="image/x-icon" href="../images/logo.png">
   </head>
   <body>
     <div class="container">
@@ -64,18 +65,27 @@
         </ul>
       </header>
     </div>
-    <h1 id="header" style="margin: 1%;">Computing in Marine Biology</h1>
-    <div style="text-align: center">
-      <figure style="width:100%">
-      <img
-        src="../assets/images/Whale.jpg"
-        alt="Blue Whale"
-        class="center"
-        height="100%"
-        width="100%"
-      />
-      <figcaption style="font-size: 10px;"> A blue whale: <a src = "https://www.worldwildlife.org/species/blue-whale"> Source: WWF (World Wildlife Federation) </a></figcaption>
+    <h1 id="header" style="margin: 1%">Computing in Marine Biology</h1>
+    <div class="thumbnail">
+    <div style="text-align: center" class="border">
+      <figure style="width: 100%">
+        <a href="../assets/images/Whale.jpg" target="_blank">
+        <img
+          src="../assets/images/Whale.jpg"
+          alt="Blue Whale"
+          class="center"
+          height="100%"
+          width="100%"
+        />
+        <figcaption style="font-size: 10px">
+          A blue whale:
+          <a src="https://www.worldwildlife.org/species/blue-whale">
+            Source: WWF (World Wildlife Federation)
+          </a>
+        </a>
+        </figcaption>
       </figure>
+    </div>
     </div>
 
     <h2 style="margin: 1%">Data Visualization in Marine Biology</h2>
@@ -102,23 +112,30 @@
         entanglement
       </a>
     </p>
-
-    <div style="text-align: center">
-      <img
+    
+    <div class="row">
+    <div class="container">
+    <div class = "col" style="background-color:rgb(0, 174, 255)" >
+      <img 
+        class = "img-responsive"
+        padding = "0px"
+        margin = "0px"
+        width="100%"
         src="../assets/images/whalebreaching.gif"
         alt="Love Death and Robots Whale"
-        class="center"
-        style="display: inline-block"
+  
       />
+    
+    </div>
     </div>
 
     <h2 style="margin: 1%">AI in Marine Biology</h2>
     <p style="text-indent: 20px; margin: 1%">
-      <strong>Artificial Intelligence (AI)</strong> is now being used in
-      marine biology research to observe marine life. Cameras, sonar, sensors
-      and other equipment are laden with AI. The algorithms count the fish and
-      plankton, monitor the size of the fish, and can even distinguish one fish
-      from another. The use of AI is new to marine biologists, yet Halvorsen
+      <strong>Artificial Intelligence (AI)</strong> is now being used in marine
+      biology research to observe marine life. Cameras, sonar, sensors and other
+      equipment are laden with AI. The algorithms count the fish and plankton,
+      monitor the size of the fish, and can even distinguish one fish from
+      another. The use of AI is new to marine biologists, yet Halvorsen
       considers what he and his colleagues are doing with the help of AI along
       the coast of southern Norway a ‘revolution’. “Observing and counting fish
       used to be manual tasks, where we had to comb through hours of film
@@ -133,12 +150,24 @@
         observations</a
       >
     </p>
-    <p style="text-indent: 20px; margin: 1%; text-align:center;font:30px">
+    <p style="text-indent: 20px; margin: 1%; text-align: center; font: 30px">
       <strong>AI is also being used to explore the oceans.</strong>
     </p>
-
-    <div style="text-align: center">
+    <div class="container-fluid">
+    <div class="row">
+    <div class="col" style="text-align: center;">
+      <img src="../assets/images/aiocean.png" alt="AI scanning fish" width="100%">
+      <h6> AI has a lot of capabilities</h6>
+      <ul>
+        <li> AI controlled machinery can traverse places no humans can</li>
+        <li> AI controlled machinery don't need constant human supervision</li>
+      </ul>
+    </div>
+    <div class="col">
+    <div style="text-align: center" class="embed-responsive embed-responsive-16by9">
       <iframe
+        class="embed-responsive-item"
+        alt="Youtube video of A.I exploring the oceans"
         width="703"
         height="395"
         src="https://www.youtube.com/embed/bAXveeBTZ3A?autoplay=1"
@@ -148,6 +177,30 @@
         allowfullscreen
       ></iframe>
     </div>
+    </div>
+    <div class="col">
+      Video
+    </div>
+
+    </div>
+    </div>
+
+
+    <div class="col">
+    <div class="border">
+    <footer>
+      <address style="font-size: 10px; font-style: italic">
+        Author: W.Y.M.H<br />
+        Contacts: 999<br />
+        Enquiries: 111<br />
+      </address>
+    </footer>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
             integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
