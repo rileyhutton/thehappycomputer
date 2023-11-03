@@ -12,7 +12,7 @@
 </head>
 <body>
 <div class="container">
-    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom d-lg-flex align-items-center">
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 d-lg-flex align-items-center">
         <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
             <img src="/assets/images/logo.png" class="bi me-2" width="100px;">
 
@@ -27,38 +27,45 @@
             <li class="nav-item"><a href="/articles/images.html" class="nav-link">🌄 Images</a></li>
         </ul>
     </header>
-
-    <div id="homeCarousel" class="carousel slide">
+</div>
+    <div id="homeCarousel" class="carousel slide" style="transform: translate(0px, -30px);">
         <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+            <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="0" class="active"
                     aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+            <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="1"
                     aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+            <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="2"
                     aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
         </div>
-        <div class="carousel-inner">
+        <div class="carousel-inner" style="height: 500px;">
             <div class="carousel-item active">
-                <img src="../assets/images/spaceImages/jwstCarinaNebula.png" class="d-block w-100" alt="...">
+                <a href="/articles/space.html"><img src="/assets/images/spaceImages/jwstCarinaNebula.png" class="d-block w-100" alt="Tech in Space"></a>
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>“Cosmic Cliffs” in the Carina Nebula</h5>
-                    <p>This landscape of “mountains” and “valleys” speckled with glittering stars is actually the edge of a
-                        nearby, young, star-forming region.</p>
+                    <h5>Computing in Marine Biology</h5>
+                    <p>Artificial Intelligence (AI) is now being used in marine biology research to observe marine life. Cameras, sonar, sensors and other equipment are laden with AI.</p>
                 </div>
             </div>
-            <div class="carousel-item">
-                <img src="../assets/images/spaceImages/jwstSouthernRingNebula.png" class="d-block w-100" alt="...">
+            <div class="carousel-item" style="height: 500px;">
+                <a href="/articles/marine.html"><img src="/assets/images/Whale.jpg" class="d-block w-100" alt="Tech in the Sea"></a>
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Southern Ring Nebula</h5>
-                    <p>Also known as NGC 3132, The Eight-Burst Nebula or Caldwell 74.</p>
+                    <h5>Computing in Marine Biology</h5>
+                    <p>Artificial Intelligence (AI) is now being used in marine biology research to observe marine life. Cameras, sonar, sensors and other equipment are laden with AI.</p>
                 </div>
             </div>
-            <div class="carousel-item">
-                <img src="../assets/images/spaceImages/jwstStephansQuintet.png" class="d-block w-100" alt="...">
+            <div class="carousel-item" style="height: 500px;">
+                <a href="/articles/healthcare.html"><img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Zipline_Drone_Launch.jpg" class="d-block w-100" alt="Tech in Health"></a>
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Stephan's Quintet</h5>
-                    <p>Tight galaxy groups like this may have been more common in the early universe when superheated,
-                        infalling material may have fueled very energetic black holes.</p>
+                    <h5>Healthcare in Developing Countries</h5>
+                    <p>Zipline is a logistics company who are aiming to bring drone delivery to the masses. While their marketing focusses heavily on food, grocery and other domestic deliveries, the real potential in this technology lies in improving logistics in healthcare. </p>
+                </div>
+            </div>
+            <div class="carousel-item" style="height: 500px;">
+                <a href="/articles/images.html"><img src="http://127.0.0.1:5500/assets/images/phone_image_search.jpeg" class="d-block w-100" alt="Tech in Images"></a>
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Significance of Image Searches</h5>
+                    <p>In the age of the internet, we're all familiar with the phrase, "a picture is worth a thousand words." Well, imagine having access to an entire library of images at your fingertips with just a few clicks.</p>
                 </div>
             </div>
         </div>
@@ -71,10 +78,11 @@
             <span class="visually-hidden">Next</span>
         </button>
     </div>
+<div class="container">
 
 
 
-    A website about Computer Science and Tech for good.
+    A website about Computer Science and Tech for good.<br><br>
 
     Website written and assembled by:
     
